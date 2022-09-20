@@ -65,9 +65,15 @@ export default function Layout({ children }) {
 
             <footer className={classes.footer}>
                 <div style={{ display: 'flex', justifyContent: 'center', gap: '53px' }}>
-                    <a href="https://github.com/Nurinuri2020" target={'_blank'}><i className="fa fa-github fa-2x"/></a>
-                    <a href="https://t.me/kaia_2022" target={'_blank'}><i className="fa fa-telegram fa-2x"/></a>
-                    <a href="https://www.linkedin.com/in/nurai-maratova-4a4933153/" target={'_blank'}><i className="fa fa-linkedin-square fa-2x"/></a>
+                    <a href="https://github.com/Nurinuri2020" target={'_blank'} rel="noreferrer">
+                        <i className="fa fa-github fa-2x"/>
+                    </a>
+                    <a href="https://t.me/kaia_2022" target={'_blank'} rel="noreferrer">
+                        <i className="fa fa-telegram fa-2x"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nurai-maratova-4a4933153/" target={'_blank'} rel="noreferrer">
+                        <i className="fa fa-linkedin-square fa-2x"/>
+                    </a>
                 </div>
                 <div>© {now.getFullYear()}</div>
             </footer>
