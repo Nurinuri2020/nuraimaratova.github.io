@@ -2,5 +2,6 @@
   "greeting": "Ciao mondo",
   "contact": "Modulo di Contatto",
   "name": "Nome",
-  "message": "Messaggio"
+  "message": "Messaggio",
+  "send": "Inviare"
 }
