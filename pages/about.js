@@ -8,7 +8,7 @@ export default function AnotherPage() {
         <Layout>
             <Head>
                 <title>About</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Settings_app_icon.png/1024px-Windows_Settings_app_icon.png" />
             </Head>
             <h1>{t("about:title")}</h1>
             <h2>

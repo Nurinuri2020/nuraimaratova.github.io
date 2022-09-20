@@ -1,9 +1,21 @@
 html,
-body {
-  padding: 0;
+body,
+
+body > div:first-child,
+div#__next,
+div#__next > div {
   margin: 0;
-  font-family: 'Qwitcher Grypen', cursive;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
+/*@media (max-height: 700px) {*/
+/*  #__next {*/
+/*    margin: 0;*/
+/*    height: 100vh;  }*/
+/*}*/
+
 
 a {
   color: inherit;

@@ -1,3 +1,7 @@
 {
-  "greeting": "Bonjour le monde"
+  "greeting": "Bonjour le monde",
+  "contact": "Formulaire de contact",
+  "name": "Nom",
+  "message": "Message",
+  "send": "Envoyer"
 }

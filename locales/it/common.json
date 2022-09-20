@@ -1,3 +1,6 @@
 {
-  "greeting": "Ciao mondo"
+  "greeting": "Ciao mondo",
+  "contact": "Modulo di Contatto",
+  "name": "Nome",
+  "message": "Messaggio"
 }

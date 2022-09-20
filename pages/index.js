@@ -14,7 +14,7 @@ export default function Home() {
             {/*/>*/}
             <Head>
                 <title>Home</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Settings_app_icon.png/1024px-Windows_Settings_app_icon.png" />
             </Head>
             <h1>{t("common:greeting")}</h1>
         </Layout>
