@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2>Hello this is personal website about me!</h2> 
+You are able to switch languages :)
+Here is the link https://nuraimaratova-github-io.vercel.app/
 
 ## Getting Started
 
