@@ -12,18 +12,22 @@ export const Mailer = () => {
     let { t } = useTranslation();
     return (
         <div className={'container'}>
-            <h1 style={{display: 'flex', justifyContent: 'center'}}>{t("common:contact")}</h1>
-            <form className={'row'} onSubmit={sendEmail}>
-                <label>{t("common:name")}</label>
-                <input type="text" name={'name'} id="name" className={'form-control'}/>
+            <div className={'row d-flex justify-content-center'}>
+                <div className={'col-9'}>
+                    <h4 style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>{t("common:contact")}</h4>
+                    <form className={'row'} onSubmit={sendEmail}>
+                        <label>{t("common:name")}</label>
+                        <input type="text" name={'name'} id="name" className={'form-control'}/>
 
-                <label>Email</label>
-                <input type="email" name={'user_email'} id="email" className={'form-control'}/>
+                        <label>Email</label>
+                        <input type="email" name={'user_email'} id="email" className={'form-control'}/>
 
-                <label>{t("common:message")}</label>
-                <textarea name={'message'} rows="4" id="message" className={'form-control'} />
-                <input type="submit" value={t("common:send")} id="submit" className={'form-control btn'} style={{marginTop: '30px'}}/>
-            </form>
+                        <label>{t("common:message")}</label>
+                        <textarea name={'message'} rows="4" id="message" className={'form-control'} />
+                        <input type="submit" value={t("common:send")} id="submit" className={'form-control btn'} style={{marginTop: '30px'}}/>
+                    </form>
+                </div>
+            </div>
         </div>
     )
 }

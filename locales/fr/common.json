@@ -1,6 +1,6 @@
 {
-  "greeting": "Bonjour le monde",
-  "contact": "Formulaire de contact",
+  "greeting": "\nSalut! Bienvenue sur mon site web :)",
+  "contact": "N'hésitez pas à me contacter :)",
   "name": "Nom",
   "message": "Message",
   "send": "Envoyer"

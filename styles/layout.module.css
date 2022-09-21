@@ -1,9 +1,11 @@
 .wholeBlock {
-    background-image: linear-gradient(#000428, #004e92);
+    /*background-image: linear-gradient(#000428, #004e92);*/
+    background: linear-gradient(to left, #43cea2, #185a9d);
     color: white;
 }
 .header {
-    background-image: linear-gradient(#dc2430, #000428);
+    /*background-image: linear-gradient(#dc2430, #000428);*/
+    background: #333;
     padding: 32px;
 }
 
@@ -22,7 +24,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #185a9d;
     color: white;
     cursor: pointer;
     padding: 15px;

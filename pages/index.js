@@ -13,7 +13,7 @@ export default function Home() {
             {/*       height={300}*/}
             {/*/>*/}
             <Head>
-                <title>Home</title>
+                <title>Nurai Maratova</title>
                 <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Settings_app_icon.png/1024px-Windows_Settings_app_icon.png" />
             </Head>
             <h1>{t("common:greeting")}</h1>

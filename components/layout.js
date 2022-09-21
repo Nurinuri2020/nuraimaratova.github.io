@@ -50,7 +50,7 @@ export default function Layout({ children }) {
                         <a>Home</a>
                     </Link>
                     <Link href="/about">
-                        <a>About</a>
+                        <a>About Me</a>
                     </Link>
                     <select name="languages" id="language-select" onChange={onSelectChange}>
                         {router.locales.map((locale, idx) => (
