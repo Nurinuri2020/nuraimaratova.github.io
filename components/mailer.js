@@ -1,6 +1,7 @@
 import emailjs from 'emailjs-com';
 import useTranslation from "next-translate/useTranslation";
 import Layout from "./layout";
+import { toaster } from 'evergreen-ui'
 
 export const Mailer = () => {
     function sendEmail(e) {
@@ -8,6 +9,7 @@ export const Mailer = () => {
         emailjs.sendForm('service_78k9vtr', 'template_y3mipu9', e.target, 'TyEtbrWDf_hU1gcLm')
             .then(res => console.log(res))
             .catch(err => console.log(err))
+        toaster.notify('Thank you! Email has been sent!')
     }
     let { t } = useTranslation();
     return (
